@@ -1,4 +1,4 @@
-let publicPath = process.env.NODE_ENV === 'production' ? '/PoolsVue' : '/dist';
+let publicPath = process.env.NODE_ENV === 'production' ? '/' : '/';
 
 module.exports = {
   publicPath,

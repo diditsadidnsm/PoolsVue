@@ -2,7 +2,7 @@ var express = require('express');
 var serveStatic = require('serve-static');
 
 var app = express();
-const path = __dirname + '/dist/';
+const path = __dirname + '/dist';
 app.use(express.static(path));
 
 var port = process.env.PORT || 5000;
